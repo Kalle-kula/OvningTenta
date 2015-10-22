@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 8.5" name="RadioCaseDiagram">
+  <useCaseModelRootMoniker Id="a201414d-a472-4311-9ed8-6c2b53f23cfe" />
+  <nestedChildShapes>
+    <actorShape Id="2fff8866-d0c4-4a91-bc64-90f70bd103a6" absoluteBounds="3.75, 3.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="c414eb85-1fcb-4c02-8f57-3de1a810454a" LastKnownName="Listener" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="cccbc58a-b313-424b-90cb-eb8aea13d35f" absoluteBounds="10.875, 4, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="46c615ea-d997-4272-a0c1-51b418b22b4f" LastKnownName="Broadcaster" />
+      <relativeChildShapes />
+    </actorShape>
+    <SubsystemShape Id="067daec9-2e79-4474-9f52-2f73d20fa4c9" absoluteBounds="5.875, 3, 3, 2.5" customColor="White">
+      <subsystemMoniker Id="54b1bd1c-a27e-442f-bcd2-117e7e2cca2f" LastKnownName="RadioSystem" />
+      <nestedChildShapes>
+        <useCaseShape Id="9255ef2b-59c9-4915-b895-d64282b21ebd" absoluteBounds="6.75, 4, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="673abeac-84c8-42a1-9f3f-e6797710d6bb" LastKnownName="Listen to music" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(4.25 : 4.13461538461539); (6.75147275724921 : 4.23082587527882)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="9a4ea972-aa34-40b0-a239-426b88a77246" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="2fff8866-d0c4-4a91-bc64-90f70bd103a6" />
+        <useCaseShapeMoniker Id="9255ef2b-59c9-4915-b895-d64282b21ebd" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

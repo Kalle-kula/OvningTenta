@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "RadioModel", "RadioModel\RadioModel.modelproj", "{A18EAE38-E830-4BF3-B6C3-0B8891EF445B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioSystemTests", "RadioSystemTests\RadioSystemTests.csproj", "{286775C0-BC46-45BD-98E8-E872AD60067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioModelLib", "RadioModelLib\RadioModelLib.csproj", "{F9276308-20CF-4EE4-A1A4-ABB4DB1FAB6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A18EAE38-E830-4BF3-B6C3-0B8891EF445B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18EAE38-E830-4BF3-B6C3-0B8891EF445B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18EAE38-E830-4BF3-B6C3-0B8891EF445B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18EAE38-E830-4BF3-B6C3-0B8891EF445B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286775C0-BC46-45BD-98E8-E872AD60067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286775C0-BC46-45BD-98E8-E872AD60067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286775C0-BC46-45BD-98E8-E872AD60067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286775C0-BC46-45BD-98E8-E872AD60067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9276308-20CF-4EE4-A1A4-ABB4DB1FAB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9276308-20CF-4EE4-A1A4-ABB4DB1FAB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9276308-20CF-4EE4-A1A4-ABB4DB1FAB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9276308-20CF-4EE4-A1A4-ABB4DB1FAB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
